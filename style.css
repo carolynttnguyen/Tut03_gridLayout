@@ -58,7 +58,7 @@ aside{
     margin: 1rem;
     background-color: #e9f5db;
 }
-}
+
 /* Grid styles for nested grid */
 section{
     display: grid;
@@ -79,4 +79,12 @@ footer{
     padding: 1rem;
     background-color:#E9EDC9;
     margin: 1rem;
+}
+
+form{
+    margin: 1rem;
+    width: 100%;
+    padding: 2rem;
+    display: block;
+    background-color:#97a97c;
 }

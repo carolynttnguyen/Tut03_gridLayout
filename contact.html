@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a target="_top" href="https://flamingtext.com/"><img
+                src="https://blog.flamingtext.com/blog/2021/12/03/flamingtext_com_1638520014_1062120315.png" border="0"
+                alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+        <!-- <br />Logo Design by <a href="https://flamingtext.com/">FlamingText.com</a> -->
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <form id="survey" action="" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+
+            <input type="checkbox" name="student" value="student">
+            <label for="student">I am a student</label><br>
+            <input type="checkbox" name="client" value="client">
+            <label for="client">I am a possible client</label><br><br>
+
+
+            <textarea name="clientMessage" id="message" cols="40" rows="6" placeholder="Let me know if you have any question:)"></textarea> <br>
+
+            <input type="submit" value="Submit">
+            <input type="button" value="Reset">
+        </form>
+</body>
+
+</html>
